@@ -1,8 +1,8 @@
 [package]
 name = "tower-sessions-fs-store"
 description = "Filesystem store for the tower-sessions crate"
-homepage = "https://github.com/driantoras/tower-sessions-fs-store"
-repository = "https://github.com/driantoras/tower-sessions-fs-store"
+homepage = "https://github.com/hamster345/tower-sessions-fs-store"
+repository = "https://github.com/hamster345/tower-sessions-fs-store"
 readme = "README.md"
 version = "0.2.0"
 edition = "2021"
