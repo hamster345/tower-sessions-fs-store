@@ -13,7 +13,7 @@ use tower_sessions_core::{
 
 #[derive(Debug, thiserror::Error)]
 enum FileStoreError {
-    // we only return the decoding errors. To avoid mis-using this enum variant, `#[from]` is not used.
+    // we only return the encoding errors. To avoid mis-using this enum variant, `#[from]` is not used.
     #[error(transparent)]
     Encode(serde_json::Error),
 
